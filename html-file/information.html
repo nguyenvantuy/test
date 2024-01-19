@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    
+    <div class="index-main">
+        <header class="index-main_header index-main_header-home">
+             <nav class="index-main_nav index-main_nav-home">
+                <ul class="index-main_nav-list">
+                    <li class="index-main_nav-item index-main_nav-img">
+                        <img src="../img/logo.png" alt="">
+                    </li>
+                </ul>
+                <ul class="index-main_nav-list index-main_nav-list_header">
+                    <li class="index-main_nav-item index-main_nav-header">
+                        Trang Chủ
+                    </li>
+                    <li class="index-main_nav-item index-main_nav-header">
+                        Giới Thiệu
+                    </li>
+                    <li class="index-main_nav-item index-main_nav-header">
+                        Liên Hệ 
+                    </li>
+                    <li class="index-main_nav-item index-main_nav-header">
+                        Cửa Hàng
+                    </li>
+                </ul>
+                <ul class="index-main_nav-list index-main_nav-list-icon">
+                    <li class="index-main_nav-item index-main_nav-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </li>
+                    <li class="index-main_nav-item index-main_nav-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                </ul>
+             </nav>
+        </header>
+
+        <div class="information-me_main">
+            <div class="information-me_main-left">
+                <div class="information-me_main-left_header">
+                    <span style="font-size: 50px">QUẢN LÍ</span> <br>
+                    <span style="font-size: 34px; word-spacing: 10px;">TÀI KHOẢN</span>
+                </div>
+                    <div class="information-me_main-left_header-content">
+                    <div class="information-me_main-left_info-account">
+                        <span>THÔNG TIN TÀI KHOẢN</span>
+                    </div>
+                    <div class="information-me_main-left_link-atm">
+                        <span>LIÊN KẾT NGÂN HÀNG</span>
+                    </div>
+                    <div class="information-me_main-left_order">
+                        <span>ĐƠN HÀNG CỦA TÔI</span>
+                    </div>
+                 </div>
+            </div>
+            <div class="information-me_main-right">
+                <div class="information-me_main-right_header">
+                    <span>THÔNG TIN TÀI KHOẢN</span>
+                </div>
+                <div class="information-me_main-right_user information-me_main-right_item">
+                    <span>Tên khách hàng</span> <br>
+                    <input type="text" placeholder="Họ và tên">
+                </div>
+                <div class="information-me_main-right_form">
+                    <div class="information-me_main-right_form-day">
+                    <form class="information-me_main-right_form-day_form">
+                        <label for="day-birth">Ngày sinh</label> <br>
+                        <select name="day-birth" id="day-birth">
+                          <option value="day">Ngày</option>
+                          <option value="day">1</option>
+                          <option value="day">2</option>
+                          <option value="day">3</option>
+                          <option value="day">4</option>
+                          <option value="day">5</option>
+                          <option value="day">6</option>
+                        </select>
+                      </form>
+                    </div>
+                    <div class="information-me_main-right_form-month information-me_main-right_form-item">
+                        <form>
+                            <select name="month-birth" id="month-birth">
+                              <option value="month">Tháng</option>
+                              <option value="month">1</option>
+                              <option value="month">2</option>
+                              <option value="month">3</option>
+                              <option value="month">4</option>
+                              <option value="month">5</option>
+                              <option value="month">6</option>
+                            </select>
+                          </form>
+                    </div>
+                    <div class="information-me_main-right_form-year information-me_main-right_form-item">
+                        <form>
+                            <select name="year-birth" id="year-birth">
+                              <option value="year">Năm</option>
+                              <option value="year">1</option>
+                              <option value="year">2</option>
+                              <option value="year">3</option>
+                              <option value="year">4</option>
+                              <option value="year">5</option>
+                              <option value="year">6</option>
+                            </select>
+                          </form>
+                    </div>
+                </div>
+                <div class="information-me_main-right_email information-me_main-right_item">
+                    <span>Email</span> <br>
+                    <input type="text" placeholder="abc@abc.com">
+                    <div class="information-me_main-right_email-icon">
+                        <div class="information-me_main-right_icon-item">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                        <div class="information-me_main-right_icon-item">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="information-me_main-right_phone information-me_main-right_item">
+                    <span>Số điện thoại</span> <br>
+                    <input type="text" placeholder="0123456789">
+                    <div class="information-me_main-right_phone-icon">
+                        <div class="information-me_main-right_icon-item">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="information-me_main-right_select">
+                    <div class="information-me_main-right_select-cancel information-me_main-right_select-item">
+                        <span>Hủy</span>
+                    </div>
+                    <div class="information-me_main-right_select-save information-me_main-right_select-item">
+                        <span>Lưu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="index-main_footer">
+            <div class="index-main_footer-logo">
+                <img src="../img/logo.png" alt="">
+            </div>
+            <div class="index-main_footer-menu_content">
+                <ul class="index-main_footer-menu_content-list">
+                    <li class="index-main_footer-menu_content-item">Trang Chủ</li>
+                    <li class="index-main_footer-menu_content-item">Giới Thiệu</li>
+                    <li class="index-main_footer-menu_content-item">Liên Hệ</li>
+                    <li class="index-main_footer-menu_content-item">Cửa Hàng</li>
+                </ul>
+            </div>
+            <div class="index-main_footer-menu_icon">
+                <ul class="index-main_footer-menu_icon-list">
+                    <li class="index-main_footer-menu_icon-item"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="index-main_footer-menu_icon-item"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="index-main_footer-menu_icon-item"><i class="fa-brands fa-linkedin"></i></li>
+                    <li class="index-main_footer-menu_icon-item"><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+            <div class="index-main_footer-end">
+                <div class="index-main_footer-end_c">
+                    <i class="fa-solid fa-c"></i>
+                </div>
+                <div class="index-main_footer-end_content">
+                    <p>COPYRIGHT SITENAME. ALL RIGHTS RESERVED</p>
+                    <p> POWERED by CREATE ECOMMERCE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>
